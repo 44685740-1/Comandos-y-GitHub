@@ -37,3 +37,5 @@ Clonar un repositotio y tenerlo vos en tu remoto y local
 3-git pull -u origin main (para obtener las actualizaciones del repo remoto)
 (usar git import al momento de crear tu repo remoto con archivos de otro repo, de otra forma va a bloquear la carpeta que tambien pertenezca al repo clonado)
 4- git push -u origin main (mandas la informacion clonada a tu propio repo)
+
+Lo que hay que hacer es usar el boton fork en GitHub (clonamos en repo remoto en nuestro propio repo remoto y despues clonamos el repo remoto a nuestra maquina local)
