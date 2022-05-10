@@ -1,0 +1,65 @@
+* {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-ser;
+}
+
+.oradores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    /* todo: hacerlo responsive */
+    width: 300px;
+    height: 480px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.tarjeta img {
+    width: 300px;
+}
+
+.tarjeta .botones {
+    margin: 1.5rem .5rem .2rem .5rem;
+}
+
+/* animacion usando animate + pesudo clse + hover (se puede hacer sin el hoover tambien) cuidado al poner el hover tiene que estar amarillo */
+/* nombre animacion + tiempo de transicion */
+.tarjeta .botones input[type="button"]:hover{
+    animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+
+
+.tarjeta .botones .botonAmarillo {
+    /* background-color: rgb(255, 193, 8); */
+    background-color: #fec107;
+    border: 0;
+    border-radius: 5px;
+}
+
+.tarjeta .botones .botonAzul {
+    /* background-color: rgb(255, 193, 8); */
+    background-color: #18a3ba;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.tarjeta .titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: .2rem .5rem 1rem .5rem;
+}
+
+.tarjeta .texto {
+    font-size: .8rem;
+    margin: .5rem;
+    text-align: justify;
+}
+

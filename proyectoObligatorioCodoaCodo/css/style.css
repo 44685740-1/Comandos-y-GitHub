@@ -1,0 +1,110 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.rounded {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.text-center {
+    position: relative;
+}
+
+.text-center .texto-imagen {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+}
+
+.text-center .ConfBsAs {
+    position: absolute;
+    left: 70%;
+    bottom: 100%;
+}
+
+#boton-imagen {
+    position: absolute;
+    left: 70%;
+    
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* esto se puede hacer con clases de bootstrap */
+/* d-flex justify-content-evenly flex-wrap. (se puede indicar el tamaño en el que actua el wrap */
+.contendor-titulo-tarjetas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* se puede usar container-fluid para que la imagen y el div sean responsivos en conjunto */
+.img-fluid {
+    width: 50%;
+}
+
+.caja-lado-imagen {
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.parrafo-debajo-texto {
+    text-align: center;
+}
+
+.container  {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 
+css de footer no responsive
+.footer-padre {
+    background-color: #26244B;
+    width: 100%;
+    height: 6rem;
+}
+.footer-hijo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    top: 2rem;
+}
+*/
+
+
+
+/* 
+css para footer con grid y breakpoint
+#footer {
+    background-color:  #26244B;
+    height: 6rem;
+}
+.row {
+    position: relative;
+    top: 2rem;
+}
+ */
+
+#navbarSupportedContent {
+    background-color:  #26244B;
+    height: 6rem;
+}
