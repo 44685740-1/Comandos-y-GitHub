@@ -39,3 +39,6 @@ Clonar un repositotio y tenerlo vos en tu remoto y local
 4- git push -u origin main (mandas la informacion clonada a tu propio repo)
 
 Lo que hay que hacer es usar el boton fork en GitHub (clonamos en repo remoto en nuestro propio repo remoto y despues clonamos el repo remoto a nuestra maquina local)
+
+Visual Studio tiene algunos problemas de licencia, asi que en todo caso es mejor usar git bash.
+Cuando clonamos un repositorio para luego subir ejercicios  como en el curso de ingreso solo hay que usar git clone, no hace falta el git init. Ademas cuando hacemos el git push no hce falta agregar el link del repo, se supone que ya esta linkeado
